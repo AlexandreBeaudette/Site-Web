@@ -1,0 +1,149 @@
+body{
+    background-color: mediumaquamarine;
+    margin: 0;
+}
+
+
+h1{
+    color: rgb(0, 255, 34);
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 275px;
+    margin-bottom: 0px;
+}
+p1{
+    color: rgb(0, 255,34);
+    font-size: 25px;
+    font-style: italic;
+    text-align:left ;
+    margin-left: 50px;
+    margin-bottom: 50px;
+   
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #ee0101;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background-color: #c10202;
+  color:aqua
+}
+img {
+   position: absolute;
+  top: 200px;
+  left: 50px;
+  width: 45%;
+  height: 80%;
+}
+
+p2{
+    color: rgb(0, 255,34);
+    font-size: 25px;
+    position:absolute;
+    top: 250px;
+    left: 800px;
+}
+
+.qualities {
+  list-style-type:square;
+  margin-top: 125px;
+  margin-left: 800px;
+  padding: 12px 20px;
+  max-width: 300px;
+  background: rgba(244, 123, 123, 0.9);
+  border: 1px dotted #ee0101;
+  border-radius: 6px;
+}
+
+.qualities li {
+  margin-bottom: 8px;
+  color: #2c0385;
+  font-size: 18px;
+}
+.question-block {
+  margin-top: 24px;
+  margin-left: 800px;
+  max-width: 360px;
+  background: rgba(255,255,255,0.95);
+  padding: 12px 16px;
+  border: 4px dotted #000000;
+  border-radius: 10px;
+}
+
+.question-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.question-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.question-buttons button {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.question-buttons .yes {
+  background: #2ecc71;
+  color: white;
+}
+
+.question-buttons .no {
+  background: #e74c3c;
+  color: white;
+}
+.answer-result {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#answer-result {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
